@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --forest: #1f4d3a;
+  --gold: #c89b3c;
+  --sand: #f5efe4;
+  --charcoal: #222222;
+  --background: #fffaf3;
+  --foreground: #222222;
+}
+
+@theme inline {
+  --color-forest: var(--forest);
+  --color-gold: var(--gold);
+  --color-sand: var(--sand);
+  --color-charcoal: var(--charcoal);
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-inter);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), ui-sans-serif, system-ui;
+}
+
+::selection { background: var(--gold); color: #fff; }
+
+.container-luxury { width: min(1180px, calc(100% - 2rem)); margin-inline: auto; }
+.glass { background: rgba(255, 255, 255, 0.12); backdrop-filter: blur(18px); border: 1px solid rgba(255,255,255,.2); }
+.text-balance { text-wrap: balance; }
+.bg-safari-gradient { background: radial-gradient(circle at top left, rgba(200,155,60,.24), transparent 28rem), linear-gradient(135deg, #1f4d3a, #12291f); }
+.focus-ring { outline: none; }
+.focus-ring:focus-visible { box-shadow: 0 0 0 3px rgba(200,155,60,.55); }
