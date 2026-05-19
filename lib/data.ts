@@ -47,4 +47,9 @@ export const whyChooseUs = [
   { title: "Trusted Tanzania experience", description: "Transparent planning and safety-first operations.", icon: ShieldCheck }
 ];
 export const blogPosts: BlogPost[] = [{ slug: "best-time-to-visit-serengeti", title: "Best Time to Visit the Serengeti", excerpt: "A short seasonal planning guide.", date: "2026-04-12", image: "https://images.unsplash.com/photo-1549366021-9f761d040a94?auto=format&fit=crop&w=1200&q=80", category: "Safari Planning", readTime: "4 min read", content: ["Plan around wildlife movement and weather windows."] }];
-export const seasons = [{ months: "Jun–Oct", wildlife: "Dry season peak wildlife", tip: "Best for classic game viewing." }];
+export const seasons = [
+  { months: "Jan–Mar", wildlife: "Calving season in southern Serengeti", tip: "Excellent predator action, newborn wildebeest, and lush green landscapes." },
+  { months: "Apr–May", wildlife: "Green season and migratory birds", tip: "Quieter parks, dramatic skies, and value-focused luxury rates." },
+  { months: "Jun–Oct", wildlife: "Dry-season concentration and river crossings", tip: "Top wildlife visibility and classic game-viewing across northern parks." },
+  { months: "Nov–Dec", wildlife: "Short rains and herd movement reset", tip: "Beautiful light, fewer crowds, and excellent photography conditions." }
+];
