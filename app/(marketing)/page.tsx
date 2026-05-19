@@ -7,6 +7,7 @@ import { GalleryGrid } from "@/components/sections/gallery-grid";
 import { Hero } from "@/components/sections/hero";
 import { SectionHeading } from "@/components/sections/section-heading";
 import { SeasonCalendar } from "@/components/sections/season-calendar";
+import { OptionalActivities } from "@/components/sections/optional-activities";
 import { Stats } from "@/components/sections/stats";
 import { Testimonials } from "@/components/sections/testimonials";
 import { WhyChooseUs } from "@/components/sections/why-choose-us";
@@ -32,6 +33,7 @@ export default function HomePage() {
       <DestinationsShowcase />
       <Stats />
       <SeasonCalendar />
+      <OptionalActivities />
       <section className="py-24"><div className="container-luxury"><SectionHeading eyebrow="Safari gallery" title="Moments from the wild" description="A masonry gallery of landscapes, wildlife, beaches, lodges, and cultural encounters." /><GalleryGrid /></div></section>
       <Testimonials />
       <section className="py-24"><div className="container-luxury"><SectionHeading eyebrow="Travel journal" title="Safari planning guides" /><div className="grid gap-6 md:grid-cols-3">{blogPosts.map((post) => <BlogCard key={post.slug} post={post} />)}</div></div></section>

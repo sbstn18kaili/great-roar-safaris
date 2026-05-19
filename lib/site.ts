@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Great Roar Safaris",
-  location: "Ngorongoro Conservation Area, Tanzania",
+  location: "Arusha, Tanzania",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://greatroarsafaris.com",
   description:
     "Luxury Tanzania safari specialists for Serengeti migrations, Ngorongoro Crater tours, Kilimanjaro treks, Zanzibar escapes, and cultural adventures.",

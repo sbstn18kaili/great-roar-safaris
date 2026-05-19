@@ -20,6 +20,14 @@ export type Destination = {
   bestSeason: string;
 };
 
+export type OptionalActivity = {
+  slug: string;
+  title: string;
+  image: string;
+  short: string;
+  details: string[];
+};
+
 export type Testimonial = {
   name: string;
   location: string;

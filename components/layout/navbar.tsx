@@ -21,10 +21,10 @@ export function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <header className="fixed inset-x-0 top-0 z-50 px-4 py-4">
-      <nav aria-label="Primary" className="container-luxury glass rounded-full px-5 py-3 text-white shadow-2xl shadow-black/10">
+      <nav aria-label="Primary" className="container-luxury rounded-full bg-forest px-5 py-3 text-white shadow-2xl shadow-black/20">
         <div className="flex items-center justify-between gap-5">
-          <Link href="/" className="font-heading text-xl font-bold tracking-wide focus-ring">
-            {siteConfig.name}
+          <Link href="/" className="font-heading text-xl font-bold tracking-wide focus-ring inline-flex items-center gap-2">
+            <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gold text-charcoal font-bold">GR</span><span>{siteConfig.name}</span>
           </Link>
           <div className="hidden items-center gap-7 lg:flex">
             {nav.map((item) => item.label === "Safaris" ? (
