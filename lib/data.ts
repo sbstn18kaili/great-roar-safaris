@@ -43,7 +43,14 @@ export const galleryByDestination = {
   Zanzibar: ["https://images.unsplash.com/photo-1586500036706-41963de24d8b?auto=format&fit=crop&w=900&q=80", "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=900&q=80"]
 };
 
-export const testimonials: Testimonial[] = [{ name: "Amelia Carter", location: "London, UK", image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80", rating: 5, quote: "Excellent safari planning and guiding." }];
+export const testimonials: Testimonial[] = [
+  { name: "Amelia Carter", location: "London, UK", image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80", rating: 5, quote: "Excellent safari planning and guiding from start to finish." },
+  { name: "Daniel Kim", location: "Seattle, USA", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80", rating: 5, quote: "Our guide knew exactly where to position us for wildlife moments." },
+  { name: "Sofia Mendes", location: "Lisbon, Portugal", image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80", rating: 5, quote: "Beautiful lodges, smooth logistics, and a truly premium safari feel." },
+  { name: "Michael Ochieng", location: "Nairobi, Kenya", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80", rating: 5, quote: "The Arusha support team was responsive and very professional." },
+  { name: "Priya Shah", location: "Mumbai, India", image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=300&q=80", rating: 5, quote: "Our honeymoon safari and Zanzibar finish was absolutely perfect." },
+  { name: "Lucas Meyer", location: "Berlin, Germany", image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80", rating: 5, quote: "Highly recommend Great Roar for migration-focused itineraries." }
+];
 export const whyChooseUs = [
   { title: "Local expert guides", description: "Born-and-raised naturalists with deep knowledge of Tanzania’s wildlife corridors.", icon: Binoculars },
   { title: "Personalized safari plans", description: "Tailored itineraries around your pace and interests.", icon: MapPinned },
@@ -51,7 +58,14 @@ export const whyChooseUs = [
   { title: "24/7 support", description: "Concierge care from arrival to departure.", icon: Headphones },
   { title: "Trusted Tanzania experience", description: "Transparent planning and safety-first operations.", icon: ShieldCheck }
 ];
-export const blogPosts: BlogPost[] = [{ slug: "best-time-to-visit-serengeti", title: "Best Time to Visit the Serengeti", excerpt: "A short seasonal planning guide.", date: "2026-04-12", image: "https://images.unsplash.com/photo-1549366021-9f761d040a94?auto=format&fit=crop&w=1200&q=80", category: "Safari Planning", readTime: "4 min read", content: ["Plan around wildlife movement and weather windows."] }];
+export const blogPosts: BlogPost[] = [
+  { slug: "best-time-to-visit-serengeti", title: "Best Time to Visit the Serengeti", excerpt: "A practical seasonal planning guide for wildlife timing.", date: "2026-04-12", image: "https://images.unsplash.com/photo-1549366021-9f761d040a94?auto=format&fit=crop&w=1200&q=80", category: "Safari Planning", readTime: "4 min read", content: ["Plan around wildlife movement and weather windows."] },
+  { slug: "tanzania-safari-packing-list", title: "Tanzania Safari Packing List", excerpt: "What to pack for game drives, lodges, bush flights, and beach extensions.", date: "2026-03-28", image: "https://images.unsplash.com/photo-1523805009345-7448845a9e53?auto=format&fit=crop&w=1200&q=80", category: "Travel Tips", readTime: "5 min read", content: ["Pack neutral colors, soft bags, sun protection, and layered clothing."] },
+  { slug: "ngorongoro-crater-travel-guide", title: "Ngorongoro Crater Travel Guide", excerpt: "How to plan a crater safari with the best views and wildlife opportunities.", date: "2026-03-12", image: "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1200&q=80", category: "Destinations", readTime: "6 min read", content: ["Start early for crater descent and combine with nearby cultural visits."] },
+  { slug: "serengeti-vs-ngorongoro", title: "Serengeti vs Ngorongoro: Which Should You Prioritize?", excerpt: "Compare landscapes, wildlife density, and trip style for each destination.", date: "2026-02-25", image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80", category: "Safari Planning", readTime: "7 min read", content: ["Serengeti is ideal for scale and migration; Ngorongoro for concentrated sightings."] },
+  { slug: "zanzibar-after-safari", title: "Why Add Zanzibar After Your Safari", excerpt: "Turn a classic wildlife trip into a complete bush-and-beach luxury journey.", date: "2026-02-10", image: "https://images.unsplash.com/photo-1586500036706-41963de24d8b?auto=format&fit=crop&w=1200&q=80", category: "Beach Extensions", readTime: "4 min read", content: ["Zanzibar offers a relaxed finale with culture, reefs, and private beaches."] },
+  { slug: "family-safari-in-tanzania", title: "Planning a Family Safari in Tanzania", excerpt: "A guide to kid-friendly routes, pacing, and accommodation choices.", date: "2026-01-30", image: "https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=1200&q=80", category: "Family Travel", readTime: "6 min read", content: ["Choose shorter transfer days and lodges with family suites."] }
+];
 export const seasons = [
   { months: "Jan–Mar", wildlife: "Calving season in southern Serengeti", tip: "Excellent predator action, newborn wildebeest, and lush green landscapes." },
   { months: "Apr–May", wildlife: "Green season and migratory birds", tip: "Quieter parks, dramatic skies, and value-focused luxury rates." },
