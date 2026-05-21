@@ -1,0 +1,9 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" fill="#fffaf0"/>
+  <circle cx="120" cy="98" r="86" fill="none" stroke="#1f4d3a" stroke-width="4"/>
+  <circle cx="146" cy="82" r="24" fill="#d7a94a" opacity="0.9"/>
+  <path d="M64 128 C82 90,120 92,132 124 C118 130,108 143,94 159 C84 170,72 170,60 160 C69 151,70 138,64 128Z" fill="#2c1a0f"/>
+  <text x="120" y="172" text-anchor="middle" font-size="22" font-family="serif" fill="#2b180d">GREAT ROAR</text>
+  <text x="120" y="198" text-anchor="middle" font-size="16" font-family="serif" fill="#1f4d3a" letter-spacing="4">SAFARIS</text>
+  <text x="120" y="216" text-anchor="middle" font-size="10" font-family="sans-serif" fill="#6b5b3e" letter-spacing="2">TANZANIA</text>
+</svg>
