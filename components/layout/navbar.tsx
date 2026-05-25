@@ -25,7 +25,7 @@ export function Navbar() {
       <nav aria-label="Primary" className="container-luxury rounded-full bg-forest px-5 py-3 text-white shadow-2xl shadow-black/20">
         <div className="flex items-center justify-between gap-5">
           <Link href="/" className="font-heading text-xl font-bold tracking-wide focus-ring inline-flex items-center gap-2">
-            <Image src="/great-roar-logo.svg" alt="Great Roar Safaris logo" width={44} height={44} className="h-11 w-11 rounded-full border border-white/40 bg-white object-cover" /><span>{siteConfig.name}</span>
+            <Image src="/images/logo/great-roar-logo.svg" alt="Great Roar Safaris logo" width={44} height={44} className="h-11 w-11 rounded-full border border-white/40 bg-white object-cover" /><span>{siteConfig.name}</span>
           </Link>
           <div className="hidden items-center gap-7 lg:flex">
             {nav.map((item) => item.label === "Safaris" ? (

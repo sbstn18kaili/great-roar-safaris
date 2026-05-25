@@ -72,3 +72,18 @@ create table contact_messages (
 ## CMS Readiness
 
 Static content currently lives in `lib/data.ts`. Replace this layer with Sanity, Strapi, Firebase, or Supabase queries without changing page-level layouts.
+
+## Local Image Assets
+
+Website images are organized under `public/images/` with dedicated folders:
+
+- `public/images/logo`
+- `public/images/hero`
+- `public/images/safaris`
+- `public/images/destinations`
+- `public/images/activities`
+- `public/images/gallery`
+- `public/images/blog`
+- `public/images/testimonials`
+
+Use these folders for local image storage and update data/component paths to reference local files as assets are added.
