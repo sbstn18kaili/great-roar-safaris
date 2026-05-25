@@ -1,0 +1,1 @@
+export default function Loading() { return <div className="grid min-h-screen place-items-center bg-sand text-forest"><div className="text-center"><div className="mx-auto h-12 w-12 animate-spin rounded-full border-4 border-gold border-t-transparent" /><p className="mt-4 font-semibold">Preparing your safari...</p></div></div>; }

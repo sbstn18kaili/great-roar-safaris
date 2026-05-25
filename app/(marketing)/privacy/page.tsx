@@ -1,0 +1,4 @@
+import { createMetadata } from "@/lib/seo";
+export const metadata = createMetadata({ title: "Privacy Policy", path: "/privacy" });
+export default function PrivacyPage() { return <Legal title="Privacy Policy" paragraphs={["We collect only the information needed to respond to inquiries, design safari itineraries, process bookings, and improve guest service.", "Booking and contact form data may be stored in Supabase and sent to our reservations team via configured email providers. We do not sell traveler data.", "Guests may request correction or deletion of personal data by contacting reservations@greatroarsafaris.com."]} />; }
+function Legal({ title, paragraphs }: { title: string; paragraphs: string[] }) { return <section className="pb-24 pt-40"><div className="container-luxury max-w-3xl"><h1 className="font-heading text-5xl font-bold text-forest">{title}</h1>{paragraphs.map((p) => <p key={p} className="mt-6 leading-8 text-charcoal/70">{p}</p>)}</div></section>; }
